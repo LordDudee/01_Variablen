@@ -40,7 +40,32 @@
 // console.log("Datentyp: " + typeof test);
 // console.log("Inhalt: " + test);
 
-const test = "moin"
+/***** 03a Konstanten *******/
 
-console.log("Inhalt: " + test);
+// const test = "moin"; // Variable mit KONSTANTEM Inhalt
+// test = "hi"; // KEINE neue Zuweisung zur LZ möglich
+// console.log("Inhalt: " + test);
 
+/***** Beispiel *******/
+
+// Deklaration
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+let date = new Date();
+let year = date.getFullYear();
+
+console.log(date);
+console.log(date.getFullYear());
+
+// Wertzuweisung
+ageJohn = 25;
+ageMark = 30;
+
+// Berechnung
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+
+//Ausgabe
+console.log("birthYearJohn:" + birthYearJohn);
+console.log("birthYearMark:" + birthYearMark);
