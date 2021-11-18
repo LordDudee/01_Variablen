@@ -36,11 +36,11 @@
 // let test;
 // test = "moin"
 // test = 10;
-// // test = false;
+// test = false;
 // console.log("Datentyp: " + typeof test);
 // console.log("Inhalt: " + test);
 
-const test;
-test = "moin"
+const test = "moin"
+
 console.log("Inhalt: " + test);
 
