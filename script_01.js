@@ -10,7 +10,7 @@
 // console.log("Hello, World!");
 // console.log(firstName); // deklarierte Variante ---> Fehler
 
-/**** 02 Deklaration + Wertzuweisung *******/
+/***** 02 Deklaration + Wertzuweisung *******/
 // 1.Möglichkeit
 // let firstName = "Max"; // Deklaration (Definition) + Wertzuwesiung
 // console.log(firstName);
@@ -31,8 +31,16 @@
 // familyName = prompt("Bitte Nachnamen eingeben");
 // console.log(firstName + " " + familyName);
 
-let test;
+// JS ist eine untypisierte Sprache!
+
+// let test;
+// test = "moin"
+// test = 10;
+// // test = false;
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+const test;
 test = "moin"
-test = 2;
-test = true;
 console.log("Inhalt: " + test);
+
